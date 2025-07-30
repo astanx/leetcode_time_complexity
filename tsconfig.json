@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "verbatimModuleSyntax": true,
+        "lib": ["dom", "esnext"],
+        "target": "es2022",
+        "module": "ESNext",
+"moduleResolution": "node",
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "strict": true,
+        "declaration": true,
+        "sourceMap": true,
+        "composite": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["./node_modules"]
+}

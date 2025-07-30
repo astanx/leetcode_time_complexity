@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/background.ts"],
+  "sourcesContent": ["console.log('Background script loaded');\n"],
+  "mappings": ";AAAA,QAAQ,IAAI,0BAA0B;",
+  "names": []
+}

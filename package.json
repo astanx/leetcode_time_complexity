@@ -1,0 +1,24 @@
+{
+  "name": "svelte-chrome-extension",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@tsconfig/svelte": "^5.0.4",
+    "@types/chrome": "^0.0.269",
+    "@types/webextension-polyfill": "^0.12.3",
+    "esbuild": "^0.25.2",
+    "esbuild-svelte": "^0.9.3",
+    "fs-extra": "^11.3.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-svelte": "^3.3.3",
+    "svelte": "^4.0.0",
+    "svelte-preprocess": "^6.0.3",
+    "typescript": "^5.4.5",
+    "zip-local": "^0.3.5"
+  }
+}

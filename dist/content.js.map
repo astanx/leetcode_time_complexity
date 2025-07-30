@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/content.ts"],
+  "sourcesContent": ["console.log('Content script active');\n"],
+  "mappings": ";AAAA,QAAQ,IAAI,uBAAuB;",
+  "names": []
+}
